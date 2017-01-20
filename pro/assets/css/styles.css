@@ -412,7 +412,7 @@ select {
   height: 780px;
 }
 .bg-slider-wrapper .flexslider .slide.slide-1 {
-  background: #253340 url('../images/background/bg-header-1.jpg') no-repeat 50% top;
+  background: #253340 url('../images/background/headerpro.png') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -523,7 +523,7 @@ select {
   max-width: 700px;
   margin: 0 auto;
   margin-bottom: 60px;
-  text-align: center;
+  text-align: left;
   color: #999;
   font-size: 18px;
 }
@@ -3326,7 +3326,7 @@ select {
   }
   .promo {
     height: 620px;
-    padding-top: 400px;
+    padding-top: 200px;
   }
   .promo.section .intro {
     margin-bottom: 45px;
