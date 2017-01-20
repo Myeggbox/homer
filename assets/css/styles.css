@@ -275,9 +275,9 @@ select {
   margin-right: 15px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #392146;
+
   background: none;
-  font-weight: bold;
+
 }
 .header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
   border: 1px solid #392146;
@@ -791,9 +791,9 @@ select {
 }
 /* ======= cta-section ======= */
 .cta-section {
-  background: #253340 url('../images/background/bg-footer-1.jpg') no-repeat left top;
+  background: #fff no-repeat left top;
   background-size: cover;
-  min-height: 420px;
+  min-height: 220px;
   color: #392146;
   padding-top: 5px;
   border: none;
