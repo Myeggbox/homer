@@ -3135,6 +3135,12 @@ select {
     padding: 0;
   }
 }
+/*images kevin */
+.security{
+  margin-bottom:42px;
+
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .config-wrapper {
