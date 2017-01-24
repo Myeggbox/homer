@@ -275,7 +275,7 @@ select {
   margin-right: 15px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #392146;
+  color: #fff;
   background: none;
   font-weight: bold;
 }
