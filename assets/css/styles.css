@@ -449,17 +449,17 @@ select {
   top: 0;
   left: 0;
   height: 300px;
-  background: #253340 url('../images/background/bg-header-small-1.jpg') no-repeat 50% top;
+  background: #392146;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .headline-bg.pricing-headline-bg {
-  background-image: url('../images/background/bg-header-small-2.jpg');
+  background : #392146;
 }
 .headline-bg.contact-headline-bg {
-  background-image: url('../images/background/bg-header-small-3.jpg');
+  background : #392146;
 }
 .headline-bg.about-headline-bg {
   background-image: url('../images/background/bg-header-small-4.jpg');
@@ -834,7 +834,7 @@ select {
   font-size: 36px;
   margin-bottom: 60px;
   margin-top: 0;
-  color: #a6a6a6;
+  color: #fff;
   font-weight: 300;
 }
 .features-video .video-container {
