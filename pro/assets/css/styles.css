@@ -530,6 +530,9 @@ select {
 .section-on-bg .title {
   color: #392146;
 }
+.section-on-bg .second {
+  color: #fff;
+}
 .section-on-bg .intro {
   color: #666;
   -webkit-opacity: 0.8;
