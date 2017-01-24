@@ -481,7 +481,7 @@ select {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 .promo.section .intro {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -531,7 +531,7 @@ select {
   color: #392146;
 }
 .section-on-bg .intro {
-  color: #999;
+  color: #666;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
