@@ -530,9 +530,6 @@ select {
 .section-on-bg .title {
   color: #392146;
 }
-.section-on-bg .second {
-  color: #fff;
-}
 .section-on-bg .intro {
   color: #666;
   -webkit-opacity: 0.8;
@@ -1063,7 +1060,7 @@ select {
   margin-bottom: 30px;
 }
 .steps .step .title .text {
-  color: #909aad;
+  color: #392146;
   font-weight: bold;
   font-size: 16px;
 }
@@ -3137,6 +3134,10 @@ select {
   .story-section .team {
     padding: 0;
   }
+}
+.security{
+  margin-bottom:42px;
+
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
