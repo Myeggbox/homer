@@ -824,6 +824,11 @@ select {
   -moz-opacity: 1;
   opacity: 1;
 }
+img.euratech {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 42px;
+  }
 /* ======= Features video ======= */
 .features-video {
   padding-top: 170px;
