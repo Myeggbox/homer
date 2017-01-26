@@ -64,12 +64,12 @@ a.btn-cta-secondary,
 .btn-cta-secondary {
   background: none;
   border: 2px solid #392146;
-  color: #392146;
+  color: #fff;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
   background: #392146;
-  border: 2px solid #392146;
+  border: 2px solid #fff;
   color: #fff;
 }
 a.btn-ghost,
@@ -565,6 +565,7 @@ select {
   margin-bottom: 15px;
 }
 .why .item .desc {
+  text-align: justify;
   margin-bottom: 60px;
 }
 .why .item .desc .fa {
