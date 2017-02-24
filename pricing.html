@@ -42,7 +42,7 @@ ga('send', 'pageview');
     <header id="header" class="header navbar-fixed-top">  
         <div class="container">       
             <h1 class="logo">
-                <a href="index.html"><span><img class="img-responsive" src="assets/images/figures/Logo.png" alt="" /></span></a>
+                <a href="http://myeggbox.com/"><span><img class="img-responsive" src="assets/images/figures/Logo.png" alt="" /></span></a>
             </h1><!--//logo-->
             <nav class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
@@ -81,11 +81,12 @@ ga('send', 'pageview');
                         <div class="item-inner">
                             <div class="heading">
                             <h3 class="title">MYEGGBOX</h3>
-                                <p class="price-figure"><span class="price-figure-inner"><span class="currency"></span><span class="number">Gratuit</span><br /><span class="unit">En téléchargement libre</span></span></p>
+                                <p class="price-figure"><span class="price-figure-inner"><span class="currency"></span><span class="number">Gratuit</span><br /><span class="unit">En téléchargement libre</span></span></p><br/>
                             </div>
                             <div class="content">
                                 <ul class="list-unstyled feature-list">
-                                    <li><i class="fa fa-check"></i>Stockage de documents illimité</li>
+                                    <li><i class="disabled"><i class="fa fa-times"></i>Conseils achats orientés assurance</i></li>
+                                    <li><i class="disabled"><i class="fa fa-times"></i>Bonus assurance habitation</i></li>
                                     <li><i class="fa fa-check"></i>3 commerçants max. synchronisés</li>
                                     <li><i class="disabled"><i class="fa fa-times"></i>Archivage automatique</i></li>
                                     <li><i class="fa fa-check"></i>1 résidence gérée</li>
@@ -104,11 +105,12 @@ ga('send', 'pageview');
                         <div class="item-inner">
                             <div class="heading">
                             <h3 class="title">HOMER</h3>
-                                <p class="price-figure"><span class="price-figure-inner"><span class="number">3,29</span><span class="currency"> €</span><br /><span class="unit">par mois</span></span></p>
+                                <p class="price-figure"><span class="price-figure-inner"><span class="number">  3,29</span><span class="currency"> €</span><span class="asterix"> *</span><br /><span class="unit">par mois</span><br/><span class="astero">*remboursé en bonus annuel</span></span></p>
                             </div>
                             <div class="content">
                                 <ul class="list-unstyled feature-list">
-                                    <li><i class="fa fa-check"></i>Stockage de documents illimité</li>
+                                    <li><i class="fa fa-check"></i>Conseils achats orientés assurance</li>
+                                    <li><i class="fa fa-check"></i>Bonus assurance habitation</li>
                                     <li><i class="fa fa-check"></i>Synchronisation comptes e-commerce</li>
                                     <li><i class="fa fa-check"></i>Archivage automatique</li>
                                     <li><i class="fa fa-check"></i>Résidences gérées illimitées</li>
@@ -130,18 +132,19 @@ ga('send', 'pageview');
                        <div class="item-inner">
                             <div class="heading">
                             <h3 class="title">AUTOMATION</h3>
-                                <p class="price-figure"><span class="price-figure-inner"><span class="number">1,99</span><span class="currency"> €</span><br /><span class="unit">par mois</span></span></p>
+                                <p class="price-figure"><span class="price-figure-inner"><span class="number">1,99</span><span class="currency"> €</span><br /><span class="unit">par mois</span></span></p><br/>
                             </div>
                             <div class="content">
                                 <ul class="list-unstyled feature-list">
-                                    <li><i class="fa fa-check"></i>Stockage de documents illimité</li>
+                                    <li><i class="disabled"><i class="fa fa-times"></i>Conseils achats orientés assurance</i></li>
+                                    <li><i class="disabled"><i class="fa fa-times"></i>Bonus assurance habitation</i></li>
                                     <li><i class="fa fa-check"></i>3 commerçants max. synchronisés</li>
                                     <li><i class="fa fa-check"></i>Archivage automatique</li>
                                     <li><i class="fa fa-check"></i>1 résidence gérée</li>
                                     <li><i class="fa fa-check"></i>Déclaration de sinistre simple</li>
                                     <li><i class="disabled"><i class="fa fa-times"></i>Suivi de couverture en continu</i></li>
                                     <li><i class="disabled"><i class="fa fa-times"></i>Comparatif des offres et résiliation</i></li>
-                                    <li><i class="disabled"><i class="fa fa-times"></i>Chat assistant personnel</i></li>
+                                    <li><i class="disabled"><i id="pourquoi" class="fa fa-times"></i>Chat assistant personnel</i></li>
                                 </ul>
                                 <a class="btn btn-cta btn-cta-primary" href="http://automation.myeggbox.com/">Souscrire</a>
    
@@ -154,7 +157,17 @@ ga('send', 'pageview');
     </section><!--//pricing-->
     
     <!-- ******FAQ Section****** --> 
-    <section class="faq section has-bg-color">
+    <section class="faq section has-bg-color" >
+        <div class="container">
+            <h2  class="title text-center">Pourquoi payer 3,29€ par mois?</h2>
+            <div class="row text-center">
+                <p style="font-size:18px;"> Le service Homer est réalisé par une équipe de professionnels en assurances, avec lesquels Myeggbox collabore. <br/>
+                 Bien qu'il vous soit facile d'indirectement <b>rembourser</b> le prix de l'abonnement au service Homer via le bonus permettant de <b>diminuer le prix</b> de votre assurance habitation, il est nécessaire pour Myeggbox de créer une entrée d'argent régulière, sous la forme d'un abonnement mensuel. </p>
+            </div><!--//row-->
+
+        </div><!--//container-->        
+    </section><!--//faq-->
+     <section class="faq section has-bg-color" style="background-color:#fff;">
         <div class="container">
             <h2 class="title text-center">Foire Aux Questions</h2>
             <div class="row">
@@ -214,8 +227,7 @@ ga('send', 'pageview');
             </div><!--//row-->
 
         </div><!--//container-->        
-    </section><!--//faq-->
-    
+    </section><!--//faq-->   
 
     
     <!-- ******FOOTER****** --> 
